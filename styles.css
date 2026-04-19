@@ -1432,3 +1432,133 @@ section + section { border-top: 1px solid var(--line-soft); }
 .reveal.d4 { transition-delay: 0.24s; }
 
 .divider { height: 1px; background: var(--line-soft); margin: 0; }
+
+/* ============================================================
+   NEW HOMEPAGE ELEMENTS (v3)
+   ============================================================ */
+
+/* 4-up case grid (replaces 2-up .case-grid on homepage) */
+.case-grid-4 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+@media (max-width: 1024px) { .case-grid-4 { grid-template-columns: 1fr; } }
+
+/* Case card additions */
+.case-body {
+  font-size: 15px;
+  line-height: 1.6;
+  color: var(--ink-soft);
+  letter-spacing: -0.005em;
+  margin-top: -4px;
+}
+.case-num {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  color: var(--ink-mute);
+  letter-spacing: 0.04em;
+  font-weight: 500;
+}
+
+/* Expanded Tools section */
+.tools-section {
+  margin-top: 56px;
+  padding: 40px;
+  background: var(--bg-card);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-sm);
+  position: relative;
+  overflow: hidden;
+}
+.tools-section::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0; right: 0; height: 3px;
+  background: linear-gradient(90deg, var(--navy), var(--navy-bright));
+}
+.tools-label {
+  display: block;
+  font-family: var(--font-mono);
+  font-size: 12px;
+  letter-spacing: 0.04em;
+  color: var(--navy);
+  font-weight: 500;
+  margin-bottom: 20px;
+  padding: 4px 10px;
+  background: var(--navy-ghost);
+  border-radius: 4px;
+  width: fit-content;
+}
+.tools-strip-big {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.tool-chip-big {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 18px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  font-size: 15px;
+  color: var(--ink);
+  background: var(--bg);
+  transition: all 0.15s var(--ease-fast);
+  font-weight: 500;
+  letter-spacing: -0.005em;
+}
+.tool-chip-big:hover {
+  border-color: var(--navy);
+  color: var(--navy);
+  transform: translateY(-1px);
+}
+.tool-chip-big .dot {
+  width: 6px; height: 6px; border-radius: 50%; background: var(--navy);
+}
+
+/* Work with me placeholder section */
+.work-with-me-section { background: var(--bg-soft); }
+.work-with-me-placeholder {
+  padding: 72px 48px;
+  border: 2px dashed var(--line-strong);
+  border-radius: var(--radius-lg);
+  background: var(--bg-card);
+  text-align: center;
+  position: relative;
+}
+.placeholder-tag-big {
+  display: inline-block;
+  font-family: var(--font-mono);
+  font-size: 11px;
+  letter-spacing: 0.08em;
+  color: var(--navy);
+  background: var(--navy-soft);
+  padding: 6px 14px;
+  border-radius: 999px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.wwm-note {
+  font-size: 18px;
+  color: var(--ink);
+  font-weight: 500;
+  margin-bottom: 8px;
+  letter-spacing: -0.01em;
+}
+.wwm-sub {
+  font-size: 14px;
+  color: var(--ink-mute);
+  max-width: 480px;
+  margin: 0 auto;
+  line-height: 1.55;
+}
+
+/* Mobile adjustments for new elements */
+@media (max-width: 680px) {
+  .tools-section { padding: 28px 24px; }
+  .tool-chip-big { padding: 8px 14px; font-size: 14px; }
+  .work-with-me-placeholder { padding: 48px 24px; }
+}
