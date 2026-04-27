@@ -14,7 +14,15 @@
   <style>
     /* ---- About-page-specific styles (self-contained) ---- */
 
-    /* Portrait image in hero */
+    /* Portrait image in hero — override placeholder styles from styles.css */
+    .about-portrait {
+      background: none !important;
+    }
+    .about-portrait::before,
+    .about-portrait::after {
+      display: none !important;
+      content: none !important;
+    }
     .about-portrait img {
       width: 100%;
       height: 100%;
