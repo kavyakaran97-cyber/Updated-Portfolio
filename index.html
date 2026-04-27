@@ -11,6 +11,28 @@
   <link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700;800&family=Geist+Mono:wght@400;500&display=swap" rel="stylesheet" />
 
   <link rel="stylesheet" href="styles.css" />
+  <style>
+    .read-more-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      padding: 8px 20px;
+      border-radius: 8px;
+      background: #1E3A8A;
+      color: #fff !important;
+      font-size: 13px;
+      font-weight: 600;
+      text-decoration: none !important;
+      transition: background 0.2s;
+    }
+    .read-more-btn:hover {
+      background: #152a63;
+    }
+    .case[onclick]:hover {
+      border-color: #1E3A8A;
+      box-shadow: 0 4px 20px rgba(30,58,138,0.08);
+    }
+  </style>
 
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='10' fill='%231E3A8A'/%3E%3C/svg%3E" />
 </head>
@@ -135,9 +157,9 @@
 
         <div class="case-grid-4">
 
-          <article class="case reveal">
+          <article class="case reveal" onclick="window.location='work.html#positioning'" style="cursor:pointer">
             <div class="case-header">
-              <span class="case-tag slg">SLG · Prudent AI</span>
+              <span class="case-tag plg">SLG · Prudent AI</span>
               <span class="case-num">01</span>
             </div>
 
@@ -162,11 +184,11 @@
 
             <div class="case-footer">
               <span class="period">Positioning &amp; messaging</span>
-              <a href="work.html#positioning">Read more</a>
+              <a href="work.html#positioning" class="read-more-btn">Read more &rarr;</a>
             </div>
           </article>
 
-          <article class="case reveal d1">
+          <article class="case reveal d1" onclick="window.location='work.html#abm'" style="cursor:pointer">
             <div class="case-header">
               <span class="case-tag slg">SLG · Prudent AI</span>
               <span class="case-num">02</span>
@@ -193,11 +215,11 @@
 
             <div class="case-footer">
               <span class="period">Account-based marketing</span>
-              <a href="work.html#abm">Read more</a>
+              <a href="work.html#abm" class="read-more-btn">Read more &rarr;</a>
             </div>
           </article>
 
-          <article class="case reveal d2">
+          <article class="case reveal d2" onclick="window.location='work.html#enablement'" style="cursor:pointer">
             <div class="case-header">
               <span class="case-tag slg">SLG · Prudent AI</span>
               <span class="case-num">03</span>
@@ -224,13 +246,13 @@
 
             <div class="case-footer">
               <span class="period">Sales enablement</span>
-              <a href="work.html#enablement">Read more</a>
+              <a href="work.html#enablement" class="read-more-btn">Read more &rarr;</a>
             </div>
           </article>
 
-          <article class="case reveal d3">
+          <article class="case reveal d3" onclick="window.location='work.html#launches'" style="cursor:pointer">
             <div class="case-header">
-              <span class="case-tag plg">PLG · Animaker · Vmaker AI</span>
+              <span class="case-tag slg">PLG · Animaker · Vmaker AI</span>
               <span class="case-num">04</span>
             </div>
 
@@ -255,7 +277,7 @@
 
             <div class="case-footer">
               <span class="period">Product launches</span>
-              <a href="work.html#launches">Read more</a>
+              <a href="work.html#launches" class="read-more-btn">Read more &rarr;</a>
             </div>
           </article>
 
@@ -329,6 +351,7 @@
             <span class="tool-chip-big"><span class="dot"></span>Hotjar &amp; Clarity</span>
             <span class="tool-chip-big"><span class="dot"></span>Intercom</span>
             <span class="tool-chip-big"><span class="dot"></span>Semrush</span>
+            <span class="tool-chip-big"><span class="dot"></span>Claude</span>
           </div>
         </div>
       </div>
