@@ -1,557 +1,341 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Kaviyakavi Baskaran — Product Marketing Manager</title>
-  <meta name="description" content="Hi, I'm Kaviyakavi. PMM work begins after you understand the industry. Six years across PLG and SLG." />
-
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700;800&family=Geist+Mono:wght@400;500&display=swap" rel="stylesheet" />
-
-  <link rel="stylesheet" href="styles.css" />
-  <style>
-    .read-more-btn {
-      display: inline-flex;
-      align-items: center;
-      gap: 4px;
-      padding: 8px 20px;
-      border-radius: 8px;
-      background: #1E3A8A;
-      color: #fff !important;
-      font-size: 13px;
-      font-weight: 600;
-      text-decoration: none !important;
-      transition: background 0.2s;
-    }
-    .read-more-btn:hover {
-      background: #152a63;
-    }
-    .case[onclick]:hover {
-      border-color: #1E3A8A;
-      box-shadow: 0 4px 20px rgba(30,58,138,0.08);
-    }
-  </style>
-
-  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='10' fill='%231E3A8A'/%3E%3C/svg%3E" />
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Kaviyakavi Baskaran — Product Marketing Manager</title>
+<meta name="description" content="PMM in Chennai. Six years across PLG and SLG. $300K pipeline, sales cycle 100→86 days, +7% website conversion. Currently at Prudent AI." />
+<meta property="og:title" content="Kaviyakavi Baskaran — Product Marketing Manager" />
+<meta property="og:description" content="PMM work begins after you understand the industry. Six years across PLG and SLG." />
+<meta property="og:type" content="website" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=DM+Sans:opsz,wght@9..40,300..700&family=Space+Mono:wght@400;700&family=Caveat:wght@500;600;700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="styles.css" />
 </head>
-<body>
+<body class="is-loading">
 
-  <!-- HEADER -->
-  <header class="site-header">
-    <div class="wrap">
-      <a href="index.html" class="brand">
-        <span class="brand-mark"></span>
-        Kaviyakavi B. <small>PMM</small>
+<!-- ================= LOADER ================= -->
+<div id="loader">
+  <div class="load-name" id="loadName"></div>
+  <div class="load-bar"><i></i></div>
+  <div class="load-meta">Kaviyakavi Baskaran · Product Marketing</div>
+</div>
+
+<!-- ================= NAV ================= -->
+<nav id="nav">
+  <a href="index.html" class="brand">Kaviyakavi B.</a>
+  <div class="nav-links">
+    <a href="index.html" class="current">Home</a>
+    <a href="about.html">About me</a>
+    <a href="work.html" class="here">Proof of work</a>
+  </div>
+  <a href="kaviyakavi-baskaran-resume.pdf" class="nav-cta">View my resume</a>
+</nav>
+
+<!-- ================= HERO ================= -->
+<section id="hero">
+  <div class="wrap hero-grid">
+    <div class="hero-copy">
+      <span class="status"><i class="dot"></i> Available for PMM roles</span>
+      <h1>
+        <span class="in-line"><span>Hi, I'm</span></span>
+        <span class="in-line"><span>Kaviyakavi <span class="wave" role="img" aria-label="waving hand">👋</span></span></span>
+      </h1>
+      <p class="hero-lede">I help B2B/B2C products stand out in the crowded market through right positioning, messaging, and pattern-interrupting GTM motion.</p>
+      <p class="hero-lede hero-hook">If you're a PMM lead or a founder looking for a PMM on your team, I'd love to talk!</p>
+      <div class="hero-actions">
+        <a class="btn btn-solid lower" href="https://calendar.app.google/LCKxbeQURApD2xiB9" target="_blank" rel="noopener">work with me <span class="arr">↗</span></a>
+      </div>
+    </div>
+
+    <div class="collage" data-speed="-.04">
+      <svg class="scribble" viewBox="0 0 120 80" fill="none" aria-hidden="true">
+        <path d="M6 62C22 22 44 8 62 22c14 11-4 34-16 26-14-9 12-32 42-24 12 3 20 12 24 24" stroke="#653b40" stroke-width="2.4" stroke-linecap="round"/>
+        <path d="M104 52l8 -6 M108 62l10 -2" stroke="#653b40" stroke-width="2.4" stroke-linecap="round"/>
+      </svg>
+
+      <span class="bubble b-made">Worked in both SLG &amp; PLG</span>
+      <span class="bubble b-sweat">Pays attention to detail</span>
+      <span class="bubble b-years">Shipped products</span>
+
+      <svg class="arrow arrow-1" viewBox="0 0 70 46" fill="none" aria-hidden="true">
+        <path d="M4 42C10 20 26 6 60 6" stroke="#653b40" stroke-width="2.2" stroke-linecap="round"/>
+        <path d="M50 3l11 3.4L54 15" stroke="#653b40" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+
+      <figure class="photo photo-main">
+        <span class="tape"></span>
+        <img src="kaviya-portrait.jpg" alt="Kaviyakavi Baskaran" />
+      </figure>
+
+      <span class="tag-hand tag-city"><span class="swatch">Chennai, IN</span></span>
+
+      <div class="testi-strip">
+        <span class="hifive" role="img" aria-label="high five">🙌</span>
+        <div class="strip-top"><span>Testimonial</span></div>
+        <q>Her Aura's 10/10!</q>
+        <cite>Ranganayaki<b>My former manager</b></cite>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= ACHIEVEMENTS ================= -->
+<section id="achievements">
+  <div class="wrap">
+    <div class="ach-head">
+      <div class="reveal">
+        <div class="eyebrow">01 — By the numbers</div>
+        <h2>From positioning to sales enablement, I've <em>shipped</em> a bunch of things.</h2>
+      </div>
+      <p class="reveal" data-d="1">I've helped the marketing teams tell the right story AND bring in money as well. I've worked across PLG &amp; SLG motion. They're two big different oceans and I've seen depths of both.</p>
+    </div>
+
+    <div class="stat-row">
+      <div class="stat reveal"><span class="pin"></span><b data-count="300" data-pre="$" data-post="K">$300K</b><i>Pipeline built at Prudent AI in 4 months</i></div>
+      <div class="stat reveal" data-d="1"><span class="pin"></span><b>100→86</b><i>Days to close, after the enablement rework</i></div>
+      <div class="stat reveal" data-d="2"><span class="pin"></span><b data-count="7" data-pre="+" data-post="%">+7%</b><i>Website conversion lift from use-case messaging</i></div>
+      <div class="stat reveal" data-d="3"><span class="pin"></span><b>3×</b><i>Signups from use-case pages at Vmaker AI</i></div>
+    </div>
+
+    <div class="skills reveal" data-d="2">
+      <span class="chip">Positioning &amp; messaging</span>
+      <span class="chip">Website CRO</span>
+      <span class="chip">Win / loss analysis</span>
+      <span class="chip">Account-based marketing</span>
+      <span class="chip">Product launches</span>
+      <span class="chip">Competitive messaging</span>
+      <span class="chip">HubSpot</span>
+      <span class="chip">PostHog</span>
+      <span class="chip">Clay</span>
+      <span class="chip">Apollo</span>
+    </div>
+  </div>
+</section>
+
+<!-- ================= FEATURED WORK (sticky stack) ================= -->
+<section id="work">
+  <div class="wrap">
+    <div class="reveal">
+      <div class="eyebrow">02 — Featured work</div>
+      <h2 class="work-head">Three things I <em>enjoyed</em> working on.</h2>
+      <p class="work-sub">…and how they impacted the overall business goals. The gist is here — please click on each card or visit the <a href="work.html">Proof of work</a> page for the full story.</p>
+    </div>
+
+    <div class="stack">
+      <!-- 01 -->
+      <article class="case reveal" style="--i:0">
+        <div class="case-head"><span class="case-tab">✦ Project 01</span></div>
+        <div class="case-inner">
+          <div class="case-body">
+            <div class="case-top"><span class="case-tagline">Account-based marketing</span><span class="case-org">SLG · Prudent AI</span></div>
+            <h3>Built $300K in pipeline in 4 months.</h3>
+            <p>Joined with no outbound motion, no demand gen playbook, no content engine. Built the ABM list with Clay and Apollo, ran campaigns in HubSpot, tracked everything in PostHog. Pipeline followed.</p>
+            <div class="case-metrics">
+              <div><b>$300K</b><span>Pipeline generated</span></div>
+              <div><b>0→1</b><span>Stack built from zero</span></div>
+            </div>
+            <a class="case-link" href="work.html#pipeline">Read the full story <span>→</span></a>
+          </div>
+          <div class="case-visual">
+            <svg viewBox="0 0 300 220" fill="none" aria-hidden="true">
+              <path d="M20 30h260l-46 56H66z" fill="#adb080" opacity=".6"/>
+              <path d="M66 96h168l-38 50h-92z" fill="#d292a8" opacity=".7"/>
+              <path d="M104 156h92l-26 48h-40z" fill="#653b40" opacity=".88"/>
+              <text x="150" y="66" text-anchor="middle" font-family="Space Mono, monospace" font-size="11" letter-spacing="1" fill="#3f3a20">ICP · CLAY + APOLLO</text>
+              <text x="150" y="126" text-anchor="middle" font-family="Space Mono, monospace" font-size="11" letter-spacing="1" fill="#3f2328">HUBSPOT CAMPAIGNS</text>
+              <text x="150" y="186" text-anchor="middle" font-family="Space Mono, monospace" font-size="12" letter-spacing="1" fill="#dfe0cc">$300K</text>
+            </svg>
+          </div>
+        </div>
+      </article>
+
+      <!-- 02 -->
+      <article class="case reveal" style="--i:1">
+        <div class="case-head"><span class="case-tab">✦ Project 02</span></div>
+        <div class="case-inner">
+          <div class="case-body">
+            <div class="case-top"><span class="case-tagline">Sales enablement</span><span class="case-org">SLG · Prudent AI</span></div>
+            <h3>Cut the sales cycle from 100+ days to 86.</h3>
+            <p>The sales team had good conversations that kept stalling after discovery. I pulled call transcripts, ran closed-lost analysis through HubSpot agent, wrote a talk-track the AEs would actually use, and built a Q&amp;A deck pulled from real objections. The cycle shortened.</p>
+            <div class="case-metrics">
+              <div><b>100→86</b><span>Days to close</span></div>
+              <div><b>2 assets</b><span>Talk-track + discovery Q&amp;A</span></div>
+            </div>
+            <a class="case-link" href="work.html#enablement">Read the full story <span>→</span></a>
+          </div>
+          <div class="case-visual">
+            <svg viewBox="0 0 300 200" fill="none" aria-hidden="true">
+              <rect x="20" y="52" width="260" height="26" rx="13" fill="#653b40" opacity=".2"/>
+              <rect x="20" y="122" width="224" height="26" rx="13" fill="#d292a8"/>
+              <text x="20" y="42" font-family="Space Mono, monospace" font-size="10" letter-spacing="1.4" fill="#653b40" opacity=".7">BEFORE · 100+ DAYS</text>
+              <text x="20" y="112" font-family="Space Mono, monospace" font-size="10" letter-spacing="1.4" fill="#653b40">AFTER · 86 DAYS</text>
+              <path d="M244 160v12h30" stroke="#653b40" stroke-width="1.6" stroke-dasharray="4 4" opacity=".5"/>
+              <text x="280" y="178" text-anchor="end" font-family="Caveat, cursive" font-size="22" fill="#653b40">14 days back</text>
+            </svg>
+          </div>
+        </div>
+      </article>
+
+      <!-- 03 -->
+      <article class="case reveal" style="--i:2">
+        <div class="case-head"><span class="case-tab">✦ Project 03</span></div>
+        <div class="case-inner">
+          <div class="case-body">
+            <div class="case-top"><span class="case-tagline">Positioning &amp; messaging</span><span class="case-org">SLG · Prudent AI</span></div>
+            <h3>Rewrote the homepage around use cases, not one persona.</h3>
+            <p>Prudent AI sells to QM and Non-QM mortgage lenders. One hero for both was too broad. I split the messaging by use case, rewrote the homepage, and watched conversion move.</p>
+            <div class="case-metrics">
+              <div><b>+7%</b><span>Website conversion</span></div>
+              <div><b>1→many</b><span>Persona to use cases</span></div>
+            </div>
+            <a class="case-link" href="work.html#positioning">Read the full story <span>→</span></a>
+          </div>
+          <div class="case-visual">
+            <svg viewBox="0 0 300 200" fill="none" aria-hidden="true">
+              <rect x="16" y="24" width="120" height="152" rx="8" fill="#653b40" opacity=".16"/>
+              <rect x="30" y="42" width="92" height="34" rx="5" fill="#653b40" opacity=".3"/>
+              <rect x="30" y="88" width="66" height="7" rx="3.5" fill="#653b40" opacity=".25"/>
+              <rect x="30" y="104" width="80" height="7" rx="3.5" fill="#653b40" opacity=".25"/>
+              <path d="M148 100h22m0 0-7-7m7 7-7 7" stroke="#653b40" stroke-width="2" stroke-linecap="round"/>
+              <rect x="182" y="24" width="102" height="44" rx="7" fill="#adb080"/>
+              <rect x="182" y="78" width="102" height="44" rx="7" fill="#d292a8"/>
+              <rect x="182" y="132" width="102" height="44" rx="7" fill="#653b40" opacity=".88"/>
+              <text x="233" y="51" text-anchor="middle" font-family="Space Mono, monospace" font-size="10" letter-spacing="1" fill="#2e2a17">QM LENDERS</text>
+              <text x="233" y="105" text-anchor="middle" font-family="Space Mono, monospace" font-size="10" letter-spacing="1" fill="#3f2328">NON-QM</text>
+              <text x="233" y="159" text-anchor="middle" font-family="Space Mono, monospace" font-size="10" letter-spacing="1" fill="#dfe0cc">BROKERS</text>
+            </svg>
+          </div>
+        </div>
+      </article>
+
+      <div class="stack-end" aria-hidden="true"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= TESTIMONIALS ================= -->
+<section id="voices">
+  <div class="wrap">
+    <div class="reveal">
+      <div class="eyebrow">03 — What people say</div>
+      <h2>Three voices from the rooms I've <em>been in.</em></h2>
+    </div>
+    <div class="quotes">
+      <blockquote class="quote reveal">
+        <span class="tape-sm"></span>
+        <span class="mark">“</span>
+        <p>Working with Kavya is super easy. She understands market, product, and audience well and gives exactly what moves the pipeline.</p>
+        <footer><span class="avatar">S</span><span><b>Saravanan P</b><span>Digital Marketing Manager, Animaker</span></span></footer>
+      </blockquote>
+      <blockquote class="quote reveal" data-d="1">
+        <span class="tape-sm"></span>
+        <span class="mark">“</span>
+        <p>From diving deep into product mechanics to spearheading creative marketing initiatives and diligently seeing projects through to completion, Kaviya consistently inspired me and helped us grow together.</p>
+        <footer><span class="avatar">A</span><span><b>Arvind Bala</b><span>Content Marketer, Prudent AI</span></span></footer>
+      </blockquote>
+      <blockquote class="quote reveal" data-d="2">
+        <span class="tape-sm"></span>
+        <span class="mark">“</span>
+        <p>Kavya brings the right strategy that bridges the gap between marketing &amp; sales. Truly remarkable!</p>
+        <footer><span class="avatar">D</span><span><b>Deepak Raj</b><span>Account Executive, Animaker</span></span></footer>
+      </blockquote>
+    </div>
+  </div>
+</section>
+
+<!-- ================= NEWSROOM ================= -->
+<section id="newsroom">
+  <div class="wrap">
+    <div class="news-head">
+      <div class="reveal">
+        <div class="eyebrow">04 — Newsroom</div>
+        <h2>The stuff that isn't on my <em>resume!</em></h2>
+      </div>
+      <p class="reveal" data-d="1">Community, stages, and a writing habit. Most of what I know about GTM came from talking to people who were figuring it out at the same time.</p>
+    </div>
+
+    <div class="news-grid">
+      <a class="news-card reveal" href="https://www.linkedin.com/posts/women-in-product-marketing_chennai-womeninproductmarketing-activity-7484626895439912960-2FAq" target="_blank" rel="noopener">
+        <span class="spine"></span>
+        <div class="news-art">
+          <img src="newsroom-1.jpg" alt="Women in Product Marketing — Meet Our Chennai City Lead, Kaviyakavi Baskaran" loading="lazy" />
+          <span class="news-badge"><img src="logo-wipm.png" alt="Women in Product Marketing" loading="lazy" /></span>
+        </div>
+        <div class="news-body">
+          <div class="news-kicker">Community · WIPM</div>
+          <h3>Chennai City Lead, WIPM</h3>
+          <p>Running the Chennai chapter for the Women in Product Marketing community, one of the leading PMM communities in 2026. Bringing PMM leaders and aspiring marketers together, especially in Chennai.</p>
+          <span class="news-go">See what's on <span>&rarr;</span></span>
+        </div>
       </a>
 
-      <nav>
-        <ul class="nav-links">
-          <li><a href="index.html" class="active">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="work.html">Proof of work</a></li>
-        </ul>
-      </nav>
+      <a class="news-card reveal" data-d="1" href="https://www.linkedin.com/posts/women-in-product-marketing_wipm-x-ai-geeks-chennai-activity-7469722649313583104-kuFx" target="_blank" rel="noopener">
+        <span class="spine"></span>
+        <div class="news-art"><img src="newsroom-2.jpg" alt="Kaviyakavi speaking to a room of attendees" loading="lazy" /></div>
+        <div class="news-body">
+          <div class="news-kicker">Speaking</div>
+          <h3>Speaking gigs</h3>
+          <p>Invited by AI Geeks &times; WIPM and Pearson India to talk about how to position AI in the crowded market. My favourite thing to talk about!</p>
+          <span class="news-go">Invite me to speak <span>&rarr;</span></span>
+        </div>
+      </a>
 
-      <div class="nav-ctas">
-        <a href="/kaviyakavi-baskaran-resume.pdf" class="btn btn-ghost btn-sm" download>Resume ↓</a>
-        <a href="https://calendar.app.google/LCKxbeQURApD2xiB9" class="btn btn-primary btn-sm" target="_blank">Talk to me</a>
-      </div>
+      <a class="news-card reveal" data-d="2" href="https://www.linkedin.com/in/kaviyakavibaskaran/" target="_blank" rel="noopener">
+        <span class="spine"></span>
+        <div class="news-art"><img src="newsroom-3.jpg" alt="Kaviyakavi Baskaran's LinkedIn profile" loading="lazy" /></div>
+        <div class="news-body">
+          <div class="news-kicker">Writing · LinkedIn</div>
+          <h3>Showing up online</h3>
+          <p>I write about my experience transitioning into PMM, positioning teardowns, messaging frameworks, and some occasional hot takes. Let's connect!</p>
+          <span class="news-go">Read on LinkedIn <span>&rarr;</span></span>
+        </div>
+      </a>
+
+      <a class="news-card reveal" data-d="3" href="https://substack.com/@kaviyakavibaskaran" target="_blank" rel="noopener">
+        <span class="spine"></span>
+        <div class="news-art"><img src="newsroom-4.jpg" alt="The PMM Sandbox newsletter by Kaviyakavi Baskaran" loading="lazy" /></div>
+        <div class="news-body">
+          <div class="news-kicker">Newsletter · Substack</div>
+          <h3>The PMM Sandbox</h3>
+          <p>I document what I learn as a PMM here, but in long form. I also write about the pulse of contemporary workplace challenges. If you're into this content, you might as well like it!</p>
+          <span class="news-go">Subscribe <span>&rarr;</span></span>
+        </div>
+      </a>
     </div>
-  </header>
 
-  <main>
-
-    <!-- HERO -->
-    <section class="hero">
-      <div class="wrap">
-        <div class="hero-grid">
-          <div class="hero-content">
-            <div class="hero-meta reveal">
-              <span class="dot"></span>
-              <span>Available for PMM roles</span>
-              <span>·</span>
-              <span>Chennai</span>
-            </div>
-
-            <h1 class="reveal d1">
-              Hi! I'm <em>Kaviyakavi.</em>
-            </h1>
-
-            <p class="hero-sub reveal d2">
-              Before I write a single line of positioning, I read support tickets, sit on discovery calls, and ask stakeholders the same question four different ways until something cracks. My positioning framework starts with what the star customers love talking about.
-            </p>
-
-            <p class="hero-sub reveal d2" style="margin-top: 20px;">
-              Six years in — social, content, and currently in SLG at Prudent AI (mortgage loan origination) as a PMM. The work is below.
-            </p>
-
-            <div class="hero-ctas reveal d3">
-              <a href="https://calendar.app.google/LCKxbeQURApD2xiB9" class="btn btn-primary arrow-out">Book a 15-min call</a>
-              <a href="work.html" class="btn btn-ghost">See the work</a>
-            </div>
-
-            <div class="hero-stats reveal d4">
-              <div class="stat">
-                <div class="stat-num">$300<sup>K</sup></div>
-                <div class="stat-label">Pipeline built at Prudent AI</div>
-              </div>
-              <div class="stat">
-                <div class="stat-num">100<sup>→86</sup></div>
-                <div class="stat-label">Day sales cycle</div>
-              </div>
-              <div class="stat">
-                <div class="stat-num">+7<sup>%</sup></div>
-                <div class="stat-label">Website conversion lift</div>
-              </div>
-            </div>
-          </div>
-
-          <aside class="hero-side">
-            <div class="photo-banner reveal d2">
-              <!-- Decorative warm glow accents -->
-              <div class="glow-amber" aria-hidden="true"></div>
-              <div class="glow-cream" aria-hidden="true"></div>
-
-              <!-- Dotted grid -->
-              <div class="photo-grid-bg" aria-hidden="true"></div>
-
-              <!-- 4 skill pills -->
-              <span class="skill-pill pill-1">Positioning</span>
-              <span class="skill-pill pill-2">Customer research</span>
-              <span class="skill-pill pill-3">Positioning &amp; messaging</span>
-              <span class="skill-pill pill-4">PLG &amp; SLG motions</span>
-
-              <!-- Testimonial card on the left -->
-              <blockquote class="banner-quote">
-                <span class="quote-mark" aria-hidden="true">"</span>
-                <p>
-                  Working with Kavya is super easy. She understands market, product, and audience well and gives exactly what moves the pipeline.
-                </p>
-              </blockquote>
-
-              <!-- Sketch outline sits behind photo -->
-              <img src="kaviya-outline.png" alt="" class="portrait-outline" aria-hidden="true" />
-
-              <!-- Portrait -->
-              <img src="kaviya-portrait.png" alt="Kaviyakavi Baskaran" class="portrait-img" />
-            </div>
-          </aside>
-        </div>
-      </div>
-    </section>
-
-    <!-- CASE STUDIES -->
-    <section id="case-studies">
-      <div class="wrap">
-        <div class="section-head reveal">
-          <div>
-            <span class="num">01 · Selected work</span>
-            <h2 class="title">Four things I <em>enjoyed</em><br/>working on.</h2>
-          </div>
-          <p class="lede">
-            Each one started with a question I couldn't answer on day one. Click on Read more to see the full project.
-          </p>
-        </div>
-
-        <div class="case-grid-4">
-
-          <article class="case reveal" onclick="window.location='work.html#positioning'" style="cursor:pointer">
-            <div class="case-header">
-              <span class="case-tag plg">SLG · Prudent AI</span>
-              <span class="case-num">01</span>
-            </div>
-
-            <h3 class="case-head">
-              Rewrote the homepage around use cases instead of one persona.
-            </h3>
-
-            <p class="case-body">
-              Prudent AI sells to QM and Non-QM mortgage lenders. One hero for both was too broad. I split the messaging by use case, rewrote the homepage, and watched conversion move.
-            </p>
-
-            <div class="case-metrics">
-              <div class="metric">
-                <div class="val">+7<sup>%</sup></div>
-                <div class="lbl">Website conversion</div>
-              </div>
-              <div class="metric">
-                <div class="val">1<span style="font-size: 0.5em; color: var(--ink-mute); margin-left: 4px;">→ many</span></div>
-                <div class="lbl">Persona to use cases</div>
-              </div>
-            </div>
-
-            <div class="case-footer">
-              <span class="period">Positioning &amp; messaging</span>
-              <a href="work.html#positioning" class="read-more-btn">Read more &rarr;</a>
-            </div>
-          </article>
-
-          <article class="case reveal d1" onclick="window.location='work.html#abm'" style="cursor:pointer">
-            <div class="case-header">
-              <span class="case-tag slg">SLG · Prudent AI</span>
-              <span class="case-num">02</span>
-            </div>
-
-            <h3 class="case-head">
-              Built $300K in pipeline in 4 months.
-            </h3>
-
-            <p class="case-body">
-              Joined with no outbound motion, no demand gen playbook, no content engine. Built the ABM list with Clay and Apollo, ran campaigns in HubSpot, tracked everything in PostHog. Pipeline followed.
-            </p>
-
-            <div class="case-metrics">
-              <div class="metric">
-                <div class="val">$300<sup>K</sup></div>
-                <div class="lbl">Pipeline generated</div>
-              </div>
-              <div class="metric">
-                <div class="val" style="font-size: 17px; padding-top: 10px; line-height: 1.25;">Clay · Apollo<br/>HubSpot · PostHog</div>
-                <div class="lbl">Stack built from zero</div>
-              </div>
-            </div>
-
-            <div class="case-footer">
-              <span class="period">Account-based marketing</span>
-              <a href="work.html#abm" class="read-more-btn">Read more &rarr;</a>
-            </div>
-          </article>
-
-          <article class="case reveal d2" onclick="window.location='work.html#enablement'" style="cursor:pointer">
-            <div class="case-header">
-              <span class="case-tag slg">SLG · Prudent AI</span>
-              <span class="case-num">03</span>
-            </div>
-
-            <h3 class="case-head">
-              Cut the sales cycle from 100+ days to 86.
-            </h3>
-
-            <p class="case-body">
-              The sales team had good conversations that kept stalling after discovery. I pulled call transcripts, ran closed-lost analysis through HubSpot agent, wrote a talk-track the AEs would actually use, and built a Q&amp;A deck pulled from real objections. The cycle shortened.
-            </p>
-
-            <div class="case-metrics">
-              <div class="metric">
-                <div class="val">100<sup>→86</sup></div>
-                <div class="lbl">Days to close</div>
-              </div>
-              <div class="metric">
-                <div class="val" style="font-size: 17px; padding-top: 10px; line-height: 1.25;">Talk-track<br/>Discovery Q&amp;A</div>
-                <div class="lbl">Built from call recordings</div>
-              </div>
-            </div>
-
-            <div class="case-footer">
-              <span class="period">Sales enablement</span>
-              <a href="work.html#enablement" class="read-more-btn">Read more &rarr;</a>
-            </div>
-          </article>
-
-          <article class="case reveal d3" onclick="window.location='work.html#launches'" style="cursor:pointer">
-            <div class="case-header">
-              <span class="case-tag slg">PLG · Animaker · Vmaker AI</span>
-              <span class="case-num">04</span>
-            </div>
-
-            <h3 class="case-head">
-              Got 3× more signups by writing webpages around use cases.
-            </h3>
-
-            <p class="case-body">
-              Vmaker AI had one homepage trying to do too many jobs. I built use-case webpages (explainer videos), scannable copy for humans & scrawlable copy for AI. Signups increased in 3 quarters.
-            </p>
-
-            <div class="case-metrics">
-              <div class="metric">
-                <div class="val">3<sup>×</sup></div>
-                <div class="lbl">Signups from use-case pages</div>
-              </div>
-              <div class="metric">
-                <div class="val">+15<sup>%</sup></div>
-                <div class="lbl">Adoption · +10% feature</div>
-              </div>
-            </div>
-
-            <div class="case-footer">
-              <span class="period">Product launches</span>
-              <a href="work.html#launches" class="read-more-btn">Read more &rarr;</a>
-            </div>
-          </article>
-
-        </div>
-      </div>
-    </section>
-
-    <!-- SKILLS -->
-    <section id="skills">
-      <div class="wrap">
-        <div class="section-head reveal">
-          <div>
-            <span class="num">02 · What I do</span>
-            <h2 class="title">Six things I actually<br/>do in a PMM role.</h2>
-          </div>
-          <p class="lede">
-            Working across sales, product, and marketing teams became my ritual before breakfast.
-          </p>
-        </div>
-
-        <div class="skills-grid reveal">
-
-          <div class="skill">
-            <span class="skill-num">01</span>
-            <h3>Positioning &amp; messaging</h3>
-            <p>Homepage rewrites, use-case framing, sales decks. Positioning that customers and AEs both repeat back.</p>
-          </div>
-
-          <div class="skill">
-            <span class="skill-num">02</span>
-            <h3>Website CRO</h3>
-            <p>Copy, flow, and funnel tests that move conversion. Hypothesis-led, not vibes-led.</p>
-          </div>
-
-          <div class="skill">
-            <span class="skill-num">03</span>
-            <h3>Win / loss analysis</h3>
-            <p>Structured customer interviews, coded findings, feeding the insights back into messaging and product.</p>
-          </div>
-
-          <div class="skill">
-            <span class="skill-num">04</span>
-            <h3>Account-based marketing</h3>
-            <p>Tight ICP work with sales. Clay, Apollo, HubSpot. Built for accounts that actually close.</p>
-          </div>
-
-          <div class="skill">
-            <span class="skill-num">05</span>
-            <h3>Product launches</h3>
-            <p>GTM plans, launch narratives, cross-functional orchestration. Tier-1 launches and quiet ships.</p>
-          </div>
-
-          <div class="skill">
-            <span class="skill-num">06</span>
-            <h3>Competitive messaging</h3>
-            <p>Battlecards, comparison pages, switcher campaigns. Sharp enough for a live sales call.</p>
-          </div>
-
-        </div>
-
-        <!-- TOOLS -->
-        <div class="tools-section reveal">
-          <span class="tools-label">Tools I use daily</span>
-          <div class="tools-strip-big">
-            <span class="tool-chip-big"><span class="dot"></span>HubSpot</span>
-            <span class="tool-chip-big"><span class="dot"></span>PostHog</span>
-            <span class="tool-chip-big"><span class="dot"></span>Google Analytics</span>
-            <span class="tool-chip-big"><span class="dot"></span>Zapier</span>
-            <span class="tool-chip-big"><span class="dot"></span>Clay</span>
-            <span class="tool-chip-big"><span class="dot"></span>Apollo</span>
-            <span class="tool-chip-big"><span class="dot"></span>Hotjar &amp; Clarity</span>
-            <span class="tool-chip-big"><span class="dot"></span>Intercom</span>
-            <span class="tool-chip-big"><span class="dot"></span>Semrush</span>
-            <span class="tool-chip-big"><span class="dot"></span>Claude</span>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- EXPERIENCE -->
-    <section id="experience">
-      <div class="wrap">
-        <div class="section-head reveal">
-          <div>
-            <span class="num">03 · Where I've done this</span>
-            <h2 class="title">Three roles.<br/>One <em>thread.</em></h2>
-          </div>
-          <p class="lede">
-            Started in brand. Moved to product. The jobs got bigger. The method stayed the same.
-          </p>
-        </div>
-
-        <div class="timeline">
-
-          <div class="timeline-item reveal">
-            <div class="timeline-date">Apr 2025 — Present</div>
-            <div class="timeline-role">
-              <h3>Product Marketing Manager</h3>
-              <span class="company">Prudent AI</span>
-              <span class="location">Mortgage loan origination · AI</span>
-            </div>
-            <div class="timeline-desc">
-              <ul>
-                <li>Built $300K pipeline through demand gen</li>
-                <li>Cut sales cycle from 100+ days to 86</li>
-                <li>Lifted website conversion +7% via messaging rework</li>
-                <li>Wrote the talk-track, Q&amp;A, and discovery plays AEs use</li>
-              </ul>
-            </div>
-          </div>
-
-          <div class="timeline-item reveal">
-            <div class="timeline-date">Sep 2021 — Mar 2025</div>
-            <div class="timeline-role">
-              <h3>Product Marketer</h3>
-              <span class="company">Animaker Inc</span>
-              <span class="location">PLG video SaaS · Chennai</span>
-            </div>
-            <div class="timeline-desc">
-              <ul>
-                <li>3× signups via use-case landing pages</li>
-                <li>+15% product adoption via onboarding rework</li>
-                <li>+10% feature adoption via UI/UX copy</li>
-                <li>Rising Star in Marketing, BITXEL 2023</li>
-              </ul>
-            </div>
-          </div>
-
-          <div class="timeline-item reveal">
-            <div class="timeline-date">Jun 2020 — Aug 2021</div>
-            <div class="timeline-role">
-              <h3>Content Writer &amp; Outreach Marketer</h3>
-              <span class="company">GLOCOM Retail Pvt. Ltd.</span>
-              <span class="location">E-commerce · Chennai</span>
-            </div>
-            <div class="timeline-desc">
-              <ul>
-                <li>Blogs, drip email, social content</li>
-                <li>Launched Instagram influencer collabs before the influencer economy hit India</li>
-              </ul>
-            </div>
-          </div>
-
-        </div>
-      </div>
-    </section>
-
-    <!-- TESTIMONIALS -->
-    <section class="testimonials">
-      <div class="wrap">
-        <div class="section-head reveal">
-          <div>
-            <span class="num">04 · What people say</span>
-            <h2 class="title">Three voices from<br/>the rooms I've <em>been in.</em></h2>
-          </div>
-          <p class="lede">
-           
-            <span class="placeholder-note">>
-          </p>
-        </div>
-
-        <div class="testi-grid">
-
-          <blockquote class="testi reveal">
-            <p class="testi-quote">
-              Working with Kavya is super easy. She understands market, product, and audience well and gives exactly what moves the pipeline.
-            </p>
-            <div class="testi-author">
-              <div class="testi-avatar">A</div>
-              <div class="testi-meta">
-                <div class="name">Saravanan P</div>
-                <div class="role">Digital Marketing Manager, Animaker</div>
-              </div>
-            </div>
-          </blockquote>
-
-          <blockquote class="testi reveal d1">
-            <p class="testi-quote">
-              Kaviyakavi's ability to connect with customers and craft compelling narratives is unmatched.
-            </p>
-            <div class="testi-author">
-              <div class="testi-avatar">B</div>
-              <div class="testi-meta">
-                <div class="name">Arvind Bala</div>
-                <div class="role">Content Marketer, Prudent AI</div>
-              </div>
-            </div>
-          </blockquote>
-
-          <blockquote class="testi reveal d2">
-            <p class="testi-quote">
-              Kavya brings the right strategy that bridges the gap between marketing & sales. Truly remarkable!
-            </p>
-            <div class="testi-author">
-              <div class="testi-avatar">C</div>
-              <div class="testi-meta">
-                <div class="name">Deepak Raj</div>
-                <div class="role">Account Executive, Animaker</div>
-              </div>
-            </div>
-          </blockquote>
-
-        </div>
-      </div>
-    </section>
-
-    <!-- BIG CTA -->
-    <section class="cta-big">
-      <div class="wrap">
-        <h2 class="reveal">
-          Let's <em>talk.</em>
-        </h2>
-        <p class="reveal d1">
-          Hiring a PMM? Building a GTM motion? Let's get on a quick call to think out loud together.
-        </p>
-        <div class="btn-row reveal d2">
-          <a href="https://calendar.app.google/LCKxbeQURApD2xiB9" class="btn btn-primary btn-lg arrow-out">Book a 15-min call</a>
-          <a href="/kaviyakavi-baskaran-resume.pdf" class="btn btn-ghost btn-lg arrow-down" download>View my resume</a>
-        </div>
-      </div>
-    </section>
-
-  </main>
-
-  <!-- FOOTER -->
-  <footer class="site-footer">
-    <div class="wrap">
-      <div class="footer-grid">
-
-        <div class="footer-brand">
-          <a href="index.html" class="brand">
-            <span class="brand-mark"></span>
-            Kaviyakavi Baskaran
-          </a>
-          <p class="tag">
-            PMM in Chennai. Six years across PLG and SLG. Currently at Prudent AI.
-          </p>
-        </div>
-
-        <div class="footer-col">
-          <h4>Site</h4>
-          <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="work.html">Proof of work</a></li>
-          </ul>
-        </div>
-
-        <div class="footer-col">
-          <h4>Connect</h4>
-          <ul>
-            <li><a href="mailto:kavyakaran97@gmail.com">kavyakaran97@gmail.com</a></li>
-            <li><a href="https://www.linkedin.com/in/kaviyakavibaskaran/" target="_blank">LinkedIn</a></li>
-            <li><a href="https://medium.com/@kaviyakavibaskaran" target="_blank">Medium</a></li>
-          </ul>
-        </div>
-
-        <div class="footer-col">
-          <h4>Act</h4>
-          <ul>
-            <li><a href="https://calendar.app.google/LCKxbeQURApD2xiB9" target="_blank">Book a 15-min call</a></li>
-            <li><a href="/kaviyakavi-baskaran-resume.pdf" download>Resume (PDF)</a></li>
-          </ul>
-        </div>
-
-      </div>
-
-      <div class="footer-bottom">
-        <span>© <span data-year>2026</span> Kaviyakavi Baskaran</span>
-        <span>Built in Chennai.</span>
-      </div>
+    <span class="news-note reveal">…and I cook. That one's on the <a href="about.html" style="text-decoration:underline">about page</a>.</span>
+  </div>
+</section>
+
+<!-- ================= CONTACT ================= -->
+<section id="contact">
+  <div class="wrap reveal">
+    <div class="eyebrow">05 — Say hello</div>
+    <h2 class="contact-h">Anybody can build products now — but how do you <em>stand out</em> in a crowded market? You tell a story that moves your audience.</h2>
+    <p>B2B or B2C, good stories and good ol' persuasion have become more important now than ever. So, hire me to work with you <span class="sparkle" role="img" aria-label="sparkles">&#10024;</span></p>
+    <div class="contact-actions">
+      <a class="btn btn-solid" href="https://calendar.app.google/LCKxbeQURApD2xiB9" target="_blank" rel="noopener">Let's connect <span class="arr">&#8599;</span></a>
+      <a class="btn btn-ghost lower" href="mailto:kavyakaran97@gmail.com">mail me: kavyakaran97@gmail.com</a>
     </div>
-  </footer>
+  </div>
+</section>
 
-  <script src="script.js"></script>
+<footer class="site">
+  <div class="wrap foot">
+    <span>© <span id="yr">2026</span> Kaviyakavi Baskaran · Built in Chennai</span>
+    <div class="foot-links">
+      <a href="about.html">About me</a>
+      <a href="work.html">Proof of work</a>
+      <a href="https://www.linkedin.com/in/kaviyakavibaskaran/" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="https://medium.com/@kaviyakavibaskaran" target="_blank" rel="noopener">Medium</a>
+      <a href="kaviyakavi-baskaran-resume.pdf">Resume</a>
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/lenis@1.1.18/dist/lenis.min.js"></script>
+<script src="site.js"></script>
 </body>
 </html>
